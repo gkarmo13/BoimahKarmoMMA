@@ -1,0 +1,54 @@
+.info-section {
+    width: 900px;
+    background-color:black;
+    height: 500px;
+    position: relative;
+    left: 25px;
+    top: 26px;
+    float: left
+}
+
+.sidebar {
+    height: 500px;
+    float: left;
+    background-color:#777777;
+    width: 315.8325px;
+    position: relative;
+    top: 26px;
+}
+
+.my-content {
+    height:560px;
+    width: 1263.33px;
+    background-color:#777777
+}
+
+.sidebuttons {
+    position:relative;
+    top:115px;
+}
+
+.youtube {
+    position:relative;
+    left:176px;
+}
+
+.bio {
+    font-size:50px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    font-weight:bold;
+}
+
+.facebook {
+    position: absolute;
+    top: 173px;
+    left: 117px;
+}
+
+.insta {
+    position: absolute;
+    top: 220px;
+    left: 117px;
+}

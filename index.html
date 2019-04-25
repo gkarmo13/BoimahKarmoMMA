@@ -3,38 +3,77 @@
 <head>
     <meta charset="UTF-8" />
     <title>Boimah Karmo</title>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bkstyle.css">
 </head>
 
 <body>
     <header>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
+                  <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                   <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+                </ul>
+        </header>
+        <div class="jumbotron">
+                <h1 class="display-4">Hello, world!</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
 
-    </header>
-    <aside>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </aside>
-    <div>
-        <h1>Slideshow</h1>
+        <div class="my-content">
+            <aside class="sidebar">
+                <section class="sidebuttons">
+                        <div class="list-group">
+                                
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Upcoming Fights</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Workout Videos</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Previous Fights</a>
+                                <br />
+                                <section class="facebook">
+                                <a href="https://www.facebook.com/Boimah-Baby-D-Karmo-MMA-495500187242192/?epa=SEARCH_BOX" target="_blank">
+                                <img src="images/facebook.png" alt="facebook">
+                                </a>
+                                </section>
 
-    </div>
-    <aside>
+                                <section class="insta">
+                                <a href="https://www.instagram.com/lib.babyd/" target="_blank">
+                                <img src="images/insta.png" alt="instagram">
+                                </a>
+                                </section>
+                                <!-- <a href="https://www.facebook.com/Boimah-Baby-D-Karmo-MMA-495500187242192/?epa=SEARCH_BOX" class="list-group-item list-group-item-action list-group-item-primary" target="_blank">Facebook</a> -->
+                                <!-- <a href="https://www.instagram.com/lib.babyd/" class="list-group-item list-group-item-action list-group-item-primary" target="_blank">Instagram</a> -->
+                              </div>
 
-
-    </aside>
-    <footer>
-
-    </footer>
-
+                </section>
+        
+            </aside>
+        
+            <section class="info-section">
+                <section class="youtube">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NX_5SIaPVh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+                <p class="bio">Bio Coming Soon..</p>
+            </section>
+        </div>
 </body>
 
 </html>
