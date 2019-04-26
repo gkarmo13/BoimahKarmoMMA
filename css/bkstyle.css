@@ -1,6 +1,10 @@
+body {
+
+}
+
 .info-section {
     width: 900px;
-    background-color:black;
+    background-color:white;
     height: 500px;
     position: relative;
     left: 25px;
@@ -11,7 +15,7 @@
 .sidebar {
     height: 500px;
     float: left;
-    background-color:#777777;
+    background-color:white;
     width: 315.8325px;
     position: relative;
     top: 26px;
@@ -20,7 +24,7 @@
 .my-content {
     height:560px;
     width: 1263.33px;
-    background-color:#777777
+    background-color:white;
 }
 
 .sidebuttons {
@@ -37,7 +41,7 @@
     font-size:50px;
     text-align:center;
     font-family:'Times New Roman', Times, serif;
-    color:white;
+    color:black;
     font-weight:bold;
 }
 
@@ -51,4 +55,50 @@
     position: absolute;
     top: 220px;
     left: 117px;
+}
+
+@keyframes slider {
+from {
+    right:0px;
+}
+to {
+    right:1263.33px;
+}
+
+
+}
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+#slider figure {
+    position: relative;
+    width:300%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size:0;
+    animation: 20s slider infinite;
+}
+
+.display-4 {
+    text-align:center;
+    font-family: 'Pacifico', cursive;
+}
+
+.jumbotron { 
+    background-color:white;
+    border-bottom:solid black;
+}
+
+.more-pics {
+    position:relative;
+    left:0px;
+    top:0px;
 }
