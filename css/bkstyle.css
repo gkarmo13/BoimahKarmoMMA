@@ -1,104 +1,46 @@
 body {
+    background-image:url("../images/main-background.jpg");
 
-}
-
-.info-section {
-    width: 900px;
-    background-color:white;
-    height: 500px;
-    position: relative;
-    left: 25px;
-    top: 26px;
-    float: left
-}
-
-.sidebar {
-    height: 500px;
-    float: left;
-    background-color:white;
-    width: 315.8325px;
-    position: relative;
-    top: 26px;
-}
-
-.my-content {
-    height:560px;
-    width: 1263.33px;
-    background-color:white;
-}
-
-.sidebuttons {
-    position:relative;
-    top:115px;
-}
-
-.youtube {
-    position:relative;
-    left:176px;
-}
-
-.bio {
-    font-size:50px;
-    text-align:center;
-    font-family:'Times New Roman', Times, serif;
-    color:black;
-    font-weight:bold;
-}
-
-.facebook {
-    position: absolute;
-    top: 173px;
-    left: 117px;
-}
-
-.insta {
-    position: absolute;
-    top: 220px;
-    left: 117px;
-}
-
-@keyframes slider {
-from {
-    right:0px;
-}
-to {
-    right:1263.33px;
-}
-
-
-}
-
-#slider {
-    overflow: hidden;
-}
-
-#slider figure img {
-    width: 20%;
-    float: left;
-}
-
-#slider figure {
-    position: relative;
-    width:300%;
-    margin: 0;
-    left: 0;
-    text-align: left;
-    font-size:0;
-    animation: 20s slider infinite;
-}
-
-.display-4 {
-    text-align:center;
-    font-family: 'Pacifico', cursive;
 }
 
 .jumbotron { 
-    background-color:white;
+    background-image:url("../images/background.jpg");
     border-bottom:solid black;
 }
 
-.more-pics {
-    position:relative;
-    left:0px;
-    top:0px;
+.foot-container {
+    background-color:white;
+    height:50px;
+    border-top:solid black 3px;
 }
+
+.py-3 {
+    padding-bottom: 0rem!important;
+}
+
+.text-muted {
+    text-align:center;
+}
+
+.list-links {
+    text-decoration: none;
+    color:black;
+}
+
+.media-body {
+    background-image: url("../images/background.jpg")
+}
+
+.vid-row {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.card-body {
+    text-align:center;
+    font-size:100px;
+    color:white;
+    background-image:url("..//images/main-background.jpg");
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
